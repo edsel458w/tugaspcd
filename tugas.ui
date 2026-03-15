@@ -134,7 +134,15 @@
    <addaction name="menuImage_Enhancement"/>
    <addaction name="menuFiltering"/>
    <addaction name="menuEdge_Detection"/>
+   <widget class="QMenu" name="menuEkstra">
+    <property name="title">
+     <string>Ekstra</string>
+    </property>
+    <addaction name="actionExport_TXT"/>
+    <addaction name="actionExport_Excel"/>
+   </widget>
    <addaction name="menuMorphology"/>
+   <addaction name="menuEkstra"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionLoad_Image">
@@ -230,6 +238,16 @@
   <action name="actionClosing">
    <property name="text">
     <string>Closing</string>
+   </property>
+  </action>
+  <action name="actionExport_TXT">
+   <property name="text">
+    <string>Export TXT</string>
+   </property>
+  </action>
+  <action name="actionExport_Excel">
+   <property name="text">
+    <string>Export Excel</string>
    </property>
   </action>
  </widget>
