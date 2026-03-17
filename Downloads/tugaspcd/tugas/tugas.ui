@@ -79,7 +79,7 @@
      <x>0</x>
      <y>0</y>
      <width>930</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -129,11 +129,6 @@
     <addaction name="actionOpening"/>
     <addaction name="actionClosing"/>
    </widget>
-   <addaction name="menuFile"/>
-   <addaction name="menuPre_processing"/>
-   <addaction name="menuImage_Enhancement"/>
-   <addaction name="menuFiltering"/>
-   <addaction name="menuEdge_Detection"/>
    <widget class="QMenu" name="menuEkstra">
     <property name="title">
      <string>Ekstra</string>
@@ -141,6 +136,11 @@
     <addaction name="actionExport_TXT"/>
     <addaction name="actionExport_Excel"/>
    </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuPre_processing"/>
+   <addaction name="menuImage_Enhancement"/>
+   <addaction name="menuFiltering"/>
+   <addaction name="menuEdge_Detection"/>
    <addaction name="menuMorphology"/>
    <addaction name="menuEkstra"/>
   </widget>
